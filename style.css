@@ -1,0 +1,429 @@
+
+
+*{
+    
+    
+    scroll-behavior: smooth;
+    
+    
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #0693e3;
+    margin: 0px;
+}
+
+
+
+#image-darwin{
+    position: absolute;
+    right: 15%;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+
+    background-color: rgba(245, 245, 245, 0.411);
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
+}
+
+
+
+.top-nav{
+    display: flex;
+    align-items: center;
+
+    background-color: #0693e3;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
+    
+}
+
+
+
+
+.links
+{
+    position: absolute;
+    padding: 10px 20px;
+    right: 3%;
+}
+
+
+.register a
+{
+    position: absolute;
+    right: 3%;
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 0.185);
+    border-radius: 50px;
+    color: white;
+  
+
+}
+
+.register{
+    display: flex;
+    align-items: center;
+}
+
+.register a:hover
+{
+    position: absolute;
+    right: 3%;
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 0.096);
+    border-radius: 50px;
+    color: white;
+
+    transition: 0.3s ease-in-out;
+  
+
+}
+
+
+
+
+
+
+
+.name
+{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0693e3;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.name a{
+    color:#0693e3 ;
+}
+
+
+
+
+.school-name 
+{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 19px;
+    color: #ffffff;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.school-name a{
+    color: white;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.links a{
+    color: #0693e3;
+    font-weight: 600;
+}
+
+
+
+#logo
+{
+    margin-left: 20px;
+}
+
+
+
+#contact{
+    margin-left: 25px;
+}
+
+.home{
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+.links .home:hover{
+   color: #fcb900;
+   border-bottom: 2px solid #fcb900;
+   transition: 0.4s ease-in-out;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-bar{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 6%;
+  
+
+}
+
+.welcome{
+    font-size: 40px;
+    font-weight:bolder;
+    margin-bottom: 20px;
+}
+
+.mlgcl{
+    color: rgba(0, 0, 0, 0.822);
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.form-content{
+
+    background-color: whitesmoke;
+    font-size: 16px;
+    margin-top: 30px;
+    filter: drop-shadow(0px 0px 2px rgba(15, 33, 199, 0.432));
+    
+}
+.login-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.login-left{
+    width:50%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+
+
+
+}
+
+ /* .login-left:focus{
+    width:50%;
+    text-align: center;
+    background-color: rgba(133, 127, 126, 0.247);
+}  */
+
+
+
+.register-right{
+    width:50%;
+    background-color: rgba(133, 127, 126, 0.247);
+    
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.padding-common{
+    padding: 23px 20px;
+    font-weight: bolder;
+}
+.login-margin{
+
+    margin-right: 15px;
+}
+
+
+
+
+
+.user-mlgcl{
+    margin-right: 8px;
+
+}
+
+
+
+
+.student-instructor-visitor{
+    text-align: center;
+    background-color: none;
+    margin-top: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding-bottom: 25px;
+  
+}
+
+
+.student-instructor-visitor a {
+    
+    padding: 12px 20px;
+    background-color:#0693e3;
+    color: white;
+    display: inline;
+    width: 38%;
+    margin: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+.student-instructor-visitor a:hover{
+    background-color: #0288d6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*register*/
+
+
+.student-instructor-visitor-register{
+    text-align: center;
+    background-color: none;
+    margin-top: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding-bottom: 25px;
+    display: none;
+  
+}
+
+
+.student-instructor-visitor-register a {
+    
+    padding: 12px 20px;
+    background-color:#0288d6;
+    color: white;
+    display: inline;
+    width: 38%;
+    margin: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+.student-instructor-visitor-register a:hover{
+    background-color: #0693e3;
+}
+
+
+/*REgister*/
+
+
+
+.s-common a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-bar{
+    background-color: none;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: #0692e325;
+    padding-top: 30px;
+  
+}
+
+.sponsor-intern{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    color: black;
+    font-size: 14px;
+}
+
+.logo-local{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.funphil{
+    padding-left: 28px;
+}
+
+.partnership{
+    margin-left: 5%;
+ 
+}
+
+.flex-part{
+    display: flex;
+}
+
+.div{
+    padding-bottom: 10px;
+}
+
+.script{
+    margin-left: 20px;
+}
+
+
+
+.login-form{
+    background-color: yellow;
+}
